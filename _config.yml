@@ -1,14 +1,14 @@
 ###########
 # site.url, site.title
 
-title: "Gymrek Lab"
+title: "Goren Lab"
 
 ## note: 
 #  use site.path in your templates to make it work for both protocols e.g. http and https
 #  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
 path: ""
-url:  "http://gymreklab.github.io"
-description: "Gymrek Lab website UCSD"
+url:  "http://goren-lab.github.io"
+description: "Goren Lab website UCSD"
 
 ########
 # more settings
