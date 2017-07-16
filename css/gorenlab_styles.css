@@ -31,12 +31,13 @@ html,body{
 }
 
 .researchpic {
-  width: 300px;
-  margin: 0px 0px;
+  width: 600px;
+  margin: 0px 100px;
 }
 
 .building {
-	margin: 5px 0px;
+	margin: 10px 0px;
+  width: 600px;
 }
 
 .softwaretable td {

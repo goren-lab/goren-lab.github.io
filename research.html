@@ -1,39 +1,59 @@
 ---
 layout: default
-title:  'Gymrek Lab - Research'
+title:  'Goren Lab - Research'
 ---
 
-<h2>Research challenges</h2>
+<h2>Research challenges:</h2>
 
-Our overall goal is to understand complex genetic variants that underlie human disease. We are particularly interested in repetitive DNA variants known as short tandem repeats (STRs) as a model for complex variation. We currently focus on the specific areas described below.
+
+Our overall goal is to understand how chromatin structure is employed in making cellular fate decisions, its dynamics, and how it is shaped and maintained by different chromatin regulators (CRs). We currently focus on the specific areas described below, merging basic biology, genomics and technology development.
 
 <table class="softwaretable">
 <tbody>
+<tr>	
+	<td width=70%>
+		<h4><strong>Study the principles of the genomic CR organization and recruitment</strong></h4>		
+	</td>
+</tr>
 <tr>
 	<td width=30%>
 		<img class="researchpic" src="images/research_figure1.jpeg" alt="research1">
 	</td>
+</tr>
+<tr>	
+	<td width=70%>		
+		Chromatin structure, the genome-wide organization of DNA-associated proteins, plays a key role in cellular fate decisions. Histone modifications (HMs) are set (‘written’), removed (‘erased’) and bound (‘read’) by enzyme complexes termed Chromatin Regulators (CRs). Multiple recent studies have demonstrated that aberrations in the function of CRs are highly implicated in diseases such as cancer and developmental disorders. In our <a href="https://www.ncbi.nlm.nih.gov/pubmed/22196736">previous efforts</a> we initiated a systematic study of the genomic organization of CRs. Following up on this, we employ our <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27826357">high-throughput automated ChIP-seq approach</a> to map CRs along differentiation and use the data to computationally identify and predict key developmental CRs. We then test these predictions by perturbing the protein levels of these candidate CRs by inducible degradation and assaying the effects on differentiation.
+	</td>
+</tr>
+<tr>	
 	<td width=70%>
-		<h4>Analyzing and visualizing repetitive genetic variation</h4>
-		Analyzing repeats from next-generation data is challenging due to the limitations of short reads and higher error rates at repeats. We previously published a tool, <a href="lobstr.teamerlich.org">lobSTR</a>, to overcome these challenges at short tandem repeats, or STRs. We are leveraging new sequencing technologies and novel bioinformatic methods to access longer and more complex repetitive regions that are traditionally filtered from sequencing studies. We also develop and maintain <a href="http://melissagymrek.com/pybamview/">PyBamView</a>, an alignment visualization tool that is especially helpful for analyzing indels and repeats.
+		<h4><strong>Investigating early developmental chromatin regulatory circuits <i>in vivo</i> and <i>in vitro</i> </strong></h4>		
 	</td>
 </tr>
 <tr>
 	<td width=30%>
 		<img class="researchpic" src="images/research_figure2.jpeg" alt="research2">
 	</td>
+</tr>
+<tr>	
+	<td width=70%>		
+		<i>In vitro</i> portraits of embryogenesis are obtained by tissue culture of pluripotent stem cells. Yet, the faithfulness of these models is limited: for instance, while <i>in vitro</i> cells exhibit self-renewal, <i>in vivo</i> cells continue on a developmental trajectory. To reveal the regulatory circuits contributing to the distinct identity of each system, we merge quantitative immunofluorescence with genomic tools focusing on DNA associated proteins. Particularly, we employ single cell RNA-seq and high-sensitivity automated ChIP-seq to allow study of the <i>in vivo</i> small cell numbers, and use genetic tools to perturb candidate genes identified in our genomic analysis. 
+	</td>
+</tr>
+<tr>
 	<td width=70%>
-		<h4>Dissecting the contribution of repetitive regions to complex traits</h4>
-		Although we are learning more and more about specific genetic variants involved in regulating gene expression or associated with certain diseases, repetitive variation such as STRs are often not well captured by such studies. We <a href="http://www.ncbi.nlm.nih.gov/pubmed/26642241">recently showed</a> that STRs play an important role in gene expression, and thus are likely to be important in complex traits. We are now building on this observation to develop statistical methods to incorporate analysis of repeats into genome-wide association studies, with a particular focus on psychiatric disease.
+		<h4><strong>Characterize cell cycle asociated chromatin dynamics and epigenetic memory</strong></h4>		
 	</td>
 </tr>
 <tr>
 	<td width=30%>
 		<img class="researchpic" src="images/research_figure3.jpeg" alt="research3">
 	</td>
-	<td width=70%>
-		<h4>Predicting the impact of non-coding variation</h4>
-		The vast majority of genetic variants identified by genome-wide association studies lie in regions of the genome that do not code for proteins, and thus are difficult to interpret. We are leveraging machine learning techniques that predict the regulatory impact of non-coding variants, in combination with patterns of genetic variation in the population, to predict the impact of individual mutations.
+</tr>	
+
+<tr>
+	<td width=70%>		
+		Both DNA sequence and the organization of DNA associated proteins are transmitted during cell divisions. This organization is disrupted during the cell cycle, and the original structure of chromatin must be restored after each cell division, a process termed ‘epigenetic memory’. This project, in collaboration with the <a href="https://medicine.ekmd.huji.ac.il/En/Publications/itamarsimon/Pages/default.aspx">Simon</a> and <a href="https://gymreklab.github.io/">Gymrek</a> labs, focuses on the mechanisms that provide cellular epigenetic memory. We merge cell cycle synchronization methods, automated ChIP-seq and computational framework to model temporal dynamics of CRs and histone modifications during the cell cycle and predict critical regulators of cell cycle epigenomic maintenance. We will functionally evaluate these predictions using an inducible degradation system to perturb specific CRs and then follow the dynamics of the histone modifications in the perturbed cells. 
 	</td>
 </tr>
 </tbody>
